@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B335C25926CEB7E4002B09B6 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = B335C25826CEB7E4002B09B6 /* APIKeys.swift */; };
 		B3B74D3826CDCACB00BE6FE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B74D3726CDCACB00BE6FE8 /* AppDelegate.swift */; };
 		B3B74D3A26CDCACB00BE6FE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B74D3926CDCACB00BE6FE8 /* SceneDelegate.swift */; };
 		B3B74D3C26CDCACB00BE6FE8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B74D3B26CDCACB00BE6FE8 /* ViewController.swift */; };
@@ -15,7 +16,26 @@
 		B3B74D4426CDCACD00BE6FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3B74D4226CDCACD00BE6FE8 /* LaunchScreen.storyboard */; };
 		B3B74D4F26CDCACE00BE6FE8 /* _0210818_EvanTempleton_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B74D4E26CDCACE00BE6FE8 /* _0210818_EvanTempleton_NYCSchoolsTests.swift */; };
 		B3B74D5A26CDCACE00BE6FE8 /* _0210818_EvanTempleton_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B74D5926CDCACE00BE6FE8 /* _0210818_EvanTempleton_NYCSchoolsUITests.swift */; };
+		B3B74D6926CDCBEF00BE6FE8 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B74D6826CDCBEF00BE6FE8 /* APIService.swift */; };
+		B3B74D6C26CDCC5900BE6FE8 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B74D6B26CDCC5900BE6FE8 /* APIManager.swift */; };
+		B3B74D6F26CDCD7B00BE6FE8 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B74D6E26CDCD7B00BE6FE8 /* School.swift */; };
+		B3B74D7226CDCE7D00BE6FE8 /* APIServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B74D7126CDCE7D00BE6FE8 /* APIServiceProtocol.swift */; };
+		B3B74D7426CDCEB200BE6FE8 /* APIManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B74D7326CDCEB200BE6FE8 /* APIManagerProtocol.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		B3B74D8826CDEF3800BE6FE8 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		B3B74D4B26CDCACE00BE6FE8 /* PBXContainerItemProxy */ = {
@@ -35,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B335C25626CEB72F002B09B6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B335C25826CEB7E4002B09B6 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 		B3B74D3426CDCACB00BE6FE8 /* 20210818-EvanTempleton-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20210818-EvanTempleton-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B74D3726CDCACB00BE6FE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3B74D3926CDCACB00BE6FE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +71,11 @@
 		B3B74D5526CDCACE00BE6FE8 /* 20210818-EvanTempleton-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20210818-EvanTempleton-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3B74D5926CDCACE00BE6FE8 /* _0210818_EvanTempleton_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0210818_EvanTempleton_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		B3B74D5B26CDCACE00BE6FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3B74D6826CDCBEF00BE6FE8 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		B3B74D6B26CDCC5900BE6FE8 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		B3B74D6E26CDCD7B00BE6FE8 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		B3B74D7126CDCE7D00BE6FE8 /* APIServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceProtocol.swift; sourceTree = "<group>"; };
+		B3B74D7326CDCEB200BE6FE8 /* APIManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManagerProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +126,10 @@
 		B3B74D3626CDCACB00BE6FE8 /* 20210818-EvanTempleton-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
+				B3B74D7026CDCE5E00BE6FE8 /* Protocol */,
+				B3B74D6D26CDCD1700BE6FE8 /* Model */,
+				B3B74D6A26CDCC4800BE6FE8 /* Manager */,
+				B3B74D6726CDCB0500BE6FE8 /* Service */,
 				B3B74D3726CDCACB00BE6FE8 /* AppDelegate.swift */,
 				B3B74D3926CDCACB00BE6FE8 /* SceneDelegate.swift */,
 				B3B74D3B26CDCACB00BE6FE8 /* ViewController.swift */,
@@ -106,6 +137,8 @@
 				B3B74D4026CDCACD00BE6FE8 /* Assets.xcassets */,
 				B3B74D4226CDCACD00BE6FE8 /* LaunchScreen.storyboard */,
 				B3B74D4526CDCACD00BE6FE8 /* Info.plist */,
+				B335C25626CEB72F002B09B6 /* README.md */,
+				B335C25826CEB7E4002B09B6 /* APIKeys.swift */,
 			);
 			path = "20210818-EvanTempleton-NYCSchools";
 			sourceTree = "<group>";
@@ -128,6 +161,39 @@
 			path = "20210818-EvanTempleton-NYCSchoolsUITests";
 			sourceTree = "<group>";
 		};
+		B3B74D6726CDCB0500BE6FE8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B3B74D6826CDCBEF00BE6FE8 /* APIService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B3B74D6A26CDCC4800BE6FE8 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B3B74D6B26CDCC5900BE6FE8 /* APIManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B3B74D6D26CDCD1700BE6FE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3B74D6E26CDCD7B00BE6FE8 /* School.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3B74D7026CDCE5E00BE6FE8 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				B3B74D7126CDCE7D00BE6FE8 /* APIServiceProtocol.swift */,
+				B3B74D7326CDCEB200BE6FE8 /* APIManagerProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,6 +206,7 @@
 				B3B74D3226CDCACB00BE6FE8 /* Resources */,
 			);
 			buildRules = (
+				B3B74D8826CDEF3800BE6FE8 /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -259,7 +326,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3B74D3C26CDCACB00BE6FE8 /* ViewController.swift in Sources */,
+				B3B74D7226CDCE7D00BE6FE8 /* APIServiceProtocol.swift in Sources */,
+				B3B74D7426CDCEB200BE6FE8 /* APIManagerProtocol.swift in Sources */,
+				B335C25926CEB7E4002B09B6 /* APIKeys.swift in Sources */,
+				B3B74D6F26CDCD7B00BE6FE8 /* School.swift in Sources */,
 				B3B74D3826CDCACB00BE6FE8 /* AppDelegate.swift in Sources */,
+				B3B74D6C26CDCC5900BE6FE8 /* APIManager.swift in Sources */,
+				B3B74D6926CDCBEF00BE6FE8 /* APIService.swift in Sources */,
 				B3B74D3A26CDCACB00BE6FE8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +519,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.evantempleton.-0210818-EvanTempleton-NYCSchools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +538,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.evantempleton.-0210818-EvanTempleton-NYCSchools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
